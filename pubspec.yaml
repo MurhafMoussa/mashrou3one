@@ -1,0 +1,74 @@
+name: mashrou3one
+description: A new Flutter  project.
+version: 1.0.3+4
+publish_to: none
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+dependencies:
+  awesome_dialog: ^3.0.2
+  carousel_slider: ^4.2.1
+  colorful_print: ^0.1.2
+  cupertino_icons: ^1.0.5
+  dartz: ^0.10.1
+  dio: ^5.0.1
+  equatable: ^2.0.5
+  extended_image: ^7.0.2
+  firebase_auth: ^4.2.6
+  firebase_core: ^2.5.0
+  firebase_messaging: ^14.4.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_local_notifications: ^13.0.0
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_screenutil: ^5.6.1
+  flutter_spinkit: ^5.1.0
+  flutter_svg: 1.1.6
+  fluttertoast: ^8.1.2
+  font_awesome_flutter: ^10.4.0
+  freezed_annotation: ^2.2.0
+  get_it: ^7.2.0
+  go_router: ^6.2.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  injectable: ^2.1.0
+  internet_connection_checker: ^1.0.0+1
+  intl: ^0.17.0
+  json_annotation: ^4.8.0
+
+  path_provider: ^2.0.12
+  open_filex: ^4.3.2
+  shimmer: ^2.0.0
+  simple_tooltip: ^1.2.0
+  sign_in_with_apple: ^4.3.0
+  #should be moved to private repository
+  step_progress_indicator: ^1.0.2
+dev_dependencies:
+  build_runner: ^2.3.3
+  flutter_launcher_icons: ^0.11.0
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.3.2
+  hive_generator: ^2.0.0
+  injectable_generator: ^2.1.3
+  json_serializable: ^6.6.0
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/logo.png"
+flutter:
+  assets:
+    - assets/images/
+  uses-material-design: true
+flutter_intl:
+  arb_dir: assets/l10n
+  class_name: AppLocalizations
+  enabled: true
+  main_locale: en
+  output_dir: lib/I10n/generated
+  nullable-getter: false
